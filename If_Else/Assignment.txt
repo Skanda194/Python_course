@@ -1,0 +1,9 @@
+Write code for a Grade Calculator :
+
+Ask user to enter marks : 
+1) greater than 90 - A 
+2) greater than 80 - B 
+3) 65 - C 
+4) 55  - D 
+5) E 
+
