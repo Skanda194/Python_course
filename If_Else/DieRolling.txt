@@ -1,0 +1,10 @@
+Write a Python program that simulates rolling two dice. Based on the sum of the dice rolls, 
+the program will perform specific actions using nested if-else statements to handle different 
+ranges of the sum (2-12).
+
+for even sum print -> One joke 
+for odd sum print -> you've got it.
+special cases : 
+for sum ==4 : print -> You've got the best
+for sum ==8 : print -> You are just lucky.
+for sum 12 :print -> You've arrived.
