@@ -31,8 +31,6 @@ credit_score = 700
 employment_status = "employed"
 The output should be:
 
-rust
-Copy code
 You are eligible for the premium credit card.
 Steps:
 Check if the individual is employed.
