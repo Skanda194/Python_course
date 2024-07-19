@@ -1,4 +1,4 @@
-For Loops in Oython
+For Loops in Python
 ===
 
 ## Practice Questions 
