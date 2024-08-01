@@ -3,35 +3,35 @@
     B) PI = 3.14
     C) CONSTANT PI = 3.14
     D) PI: const = 3.14
-B
+B - Correct
 2. Which data type would be most appropriate for storing a collection of unique items?
     A) List
     B) Tuple
     C) Set
     D) Dictionary
-B
+B - Wrong      Correct Answer - Set
 3. Which of the following is used to iterate over elements in a list?
     A) for loop
     B) while loop
     C) switch statement
     D) if statement
-A
-4. In Python, a variable name cannot start with a number.
+A - Correct
+4. In Python, a variable name cannot start with a number.  - Correct
 
-5. A tuple is similar to a list, but it is open to all data types and cannot be changed.
-
+5. A tuple is similar to a list, but it is open to all data types and cannot be changed.  Immutable
 
 6. A dictionary in Python can have duplicate keys. (True or False)
 False
 
 7. The if-else statement can be replaced by a switch statement in Python for conditional checks.
-False
+False -- Switch is not there in Python 
+
 8. Which of the following are mutable data types in Python? (Select all that apply)
     A) List
     B) Tuple
     C) Set
     D) Dictionary
-A,D
+A,D , --Partially Correct     A , C , D
 9. What are the valid variable naming conventions in Python? (Select all that apply)
     A) myVariable
     B) 1_variable
@@ -63,7 +63,7 @@ C
 13. A _______ is a collection of key-value pairs in Python.
 Dictionary
 14. Tuples consume less memory than lists in Python. (True/ False)
-False
+False ------>     True 
 15. In Python, sets are ordered collections of unique items. (True/ False)
 False
 16. Given a dictionary student_scores with student names as keys and their scores as values, write a Python code snippet to print only the names of students who scored more than 75.
@@ -100,13 +100,13 @@ C
     B) {1, 2, 3, 2}
     C) {1, 2}
     D) {2, 3}
-B
+B ----- A
 20. In Python, the else block is executed when the if condition is _______.
 False
 21. In Python, a set cannot contain _______ elements.
-Floats
+Floats ---- Duplicate 
 22. The switch statement is natively supported in Python. (True or False)
-Skip
+False
 23. A list in Python can contain elements of different data types. (True or False)
 True
 24. What will be the output of the following code?
@@ -123,7 +123,7 @@ D
     B) A list allows duplicate elements, and a set does not.
     C) A list is mutable, and a set is immutable.
     D) A list supports indexing, and a set does not.
-C
+C ---> B
 26. In Python, a variable name can contain letters, numbers, and _______ characters, but cannot start with a number.
  Underscore
 27. In Python, the len() function can be used to determine the number of elements in a tuple. (True or False)
@@ -133,7 +133,7 @@ True
     B) insert()
     C) extend()
     D) add()
-A,B,D,C
+A,B,D,C       A B C 
 29. Which of the following statements about Python dictionaries are true? (Select all that apply)
     A) Dictionary keys must be unique.
     B) Dictionary values must be immutable.
@@ -145,4 +145,4 @@ D,A
     queue = set(numbers)
     print(len(queue))
 What will be the output of the above code?
-it will print 7 
+it will print 7  --- 5 
