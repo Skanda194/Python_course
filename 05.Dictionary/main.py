@@ -32,11 +32,14 @@ print(my_dict.get('roll nu'))
 #Accessing all the keys 
 
 student ={
+    # keys : values 
     'name':'Arvinder',
     'roll nu':122676,
     'age':24,
     'College':'NIT',
-    'Country':'India' 
+    'Country':'India',
+    # 4566 : 456
+    # 'age':25
 }
 print(my_dict.keys())
 print(student.keys())

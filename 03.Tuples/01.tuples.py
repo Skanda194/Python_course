@@ -1,4 +1,4 @@
-#Unchangable , ordered , allow duplicates
+#Unchangable (unmutable) , ordered , allow duplicates
 myTuple = ("Apple","Banana","Coconut")
 print(myTuple)
 
@@ -6,7 +6,6 @@ print("Length: ",len(myTuple))
 
 myTuple2 =("Hello",23,100.50,"World",True)
 print(myTuple2)
-
 
 print(myTuple[1])
 # myTuple[2]= "Random"

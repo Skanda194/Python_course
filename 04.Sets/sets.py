@@ -1,10 +1,10 @@
-#Sets - Unordered , Unmutable , unidexed , duplicates are not not allowed
+#Sets - Unordered or unidexed , duplicates are not not allowed , unmutable
 
 # my_list = [29,30,45,879]
 # print(my_list[3])
 my_sets ={1,45,67,37,20}
 print(my_sets)
-
+# my_sets[0] 
 #Duplicates are not allowed
 my_sets2= {20,20,30,34,50,50,49,60}
 print(my_sets2)
