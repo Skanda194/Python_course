@@ -11,8 +11,8 @@
    -  Output Example:  True 
 
 3.  Find Maximum of Two Numbers 
-   -  Problem:  Write a function  find_max(a, b, c)  that returns the maximum of three numbers.
-   -  Input Example:   find_max(3, 7, 5) 
+   -  Problem:  Write a function  find_max(a, b)  that returns the maximum of two numbers.
+   -  Input Example:   find_max(3, 7) 
    -  Output Example:   7 
 
 4.  Convert Celsius to Fahrenheit 
