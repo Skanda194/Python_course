@@ -77,7 +77,7 @@ def PrintDetails(fname , lname):
     return fullName
     # print("Hello")
 
-# Whatever is return after return statement will not get executed
+# Whatever is written after return statement will not get executed
 name = PrintDetails("Arvinder","XYZ")
 print(name)
 
