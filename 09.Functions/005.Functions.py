@@ -1,11 +1,13 @@
 # Functions are block of code - 
 # Function definition - def 
-def PrintDetails():
-    pass
+def PrintDetails(name):   #Parameter
+    print(name)
 
 for i in range(5):
     pass 
 
+
+print(PrintDetails("Arvinder"))  #Argument 
 # Function Call - For a function to exceute we have to call it. 
 # PrintDetails()
 
@@ -45,6 +47,8 @@ for i in range(5):
 
 
 # StudentDetails("Arvinder","9th")
+
+
 
 
 

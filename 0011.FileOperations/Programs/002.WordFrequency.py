@@ -12,11 +12,13 @@ def word_frequency(filename):
         with open(filename,'r') as f:
             content = f.read()
             # print(content)
-            word_list = content.split()
+            word_list = content.split('-')
+            print(word_list)
             word_dictionary={}
 
             for word in word_list:
-                word = word.strip('.,?!:;')
+                word = word.strip('-')
+                print(word)
                 word = word.lower()
 
                 if word in word_dictionary:
@@ -30,6 +32,6 @@ def word_frequency(filename):
     except FileNotFoundError:
         print("File not found.")
 
-word_frequency('example.txt')
+word_frequency('comma.txt')
 
 

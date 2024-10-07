@@ -1,7 +1,7 @@
 import os 
 
 # to remove a file
-# os.remove('test2.txt')
+# os.remove('profile.txt')
 
 
 # to delete a directory / folder

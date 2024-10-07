@@ -5,7 +5,7 @@ def count_words(filename):
         with open(filename ,'r') as f:
             content = f.read()   #This is the file created to count the words.
             # print("content:",content)
-            words = content.split()    #splitting on the basis of spaces
+            words = content.split('-')    #splitting on the basis of spaces
             # space , hyphen , comma , semicolon 
             # print("Words:",words)
 
@@ -15,7 +15,7 @@ def count_words(filename):
         print("File not found.")
 
 
-count_words('example.txt')
+count_words('comma.txt')
 
 
 

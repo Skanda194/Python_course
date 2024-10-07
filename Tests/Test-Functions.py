@@ -8,7 +8,9 @@ Q1. What is a function in Python?
     c) A reusable block of code that only runs when it is called
 
     d) A block of code that cannot accept inputs or return outputs
-b
+    
+Skanda - b
+Correct - c 
 -------------------------------------------------------------------------------------
 Q2. What is the purpose of the return statement in a Python function?
 
@@ -29,8 +31,9 @@ Q3. What is the difference between a function argument and a function parameter?
 
     c) There is no difference between arguments and parameters
 
-    d) Arguments are passed by reference, and parameters are passed by value
+    d) Arguments are passed by reference, and parameters are passed by valuessss
 d
+Correct - b
 ---------------------------------------------------------------------------------------
 Q4. What happens if you try to return a value from a function without using the return statement?
 
@@ -42,6 +45,7 @@ Q4. What happens if you try to return a value from a function without using the 
 
     d) The function will throw an error
 d
+Correct - b
 -----------------------------------------------------------------------------------------------
 Q5. In Python, what is the term used for a function defined inside another function?
 
@@ -63,6 +67,7 @@ Q6. Which of the following statements is true about function scope?
 
     d) Functions cannot access global variables
 d
+Correct - b
 -------------------------------------------------------------------------------------------
 Q7. What is a key feature of a recursive function?
 
@@ -100,6 +105,7 @@ Q10. What is the main difference between a `return` statement and a `print` stat
     c) `return` can print multiple values 
 
 c    d) `print` always returns a value  
+Correct - a
 ----------------------------------------------------------------------------------------------
 Q11. What does the following code return? 
 """ 
@@ -108,6 +114,7 @@ def myFunc():
 print(myFunc())
 """
 d    a) `None`             b) `pass`             c) `0`               d) Error 
+Corect -- a
 -----------------------------------------------------------------------------------------------
 Q12. What will be the output of the following code?
 """
@@ -118,7 +125,9 @@ def func2():
     return func1() + " World" + 123
 print(func2())
 """
-  b  a) Hello            b) Hello World123      c) World Hello 123  d) Error   
+  b  a) Hello            b) Hello World123      c) World Hello 123  d) Error  
+
+  Correct - d 
 ---------------------------------------------------------------------------------------------
 Q13. Which of the following is a built-in function in Python?
 
@@ -132,12 +141,13 @@ def func(x):
 print(func(func(2)))
 """ 
 b    a) 2              b) 3                    c) 4                d) 5
+Correct - c
 ---------------------------------------------------------------------------------------------
 Q15. Which of the following is NOT a valid Python function name? 
 
     a) `my_function()`   b) `_func123()`      c) `2coolFunc()`     d) `funcName()`  
-
----c-------------------------------------------------------------------------------------------
+c
+----------------------------------------------------------------------------------------------
 Q16. What happens if a function has no `return` statement? 
     a) It returns `0`
 
@@ -146,6 +156,8 @@ Q16. What happens if a function has no `return` statement?
     c) It returns the last value calculated 
 
  c   d) It raises an error  
+
+ Correct - b
 ----------------------------------------------------------------------------------------------
 Q17. What will be the output of the following code?
 """
@@ -236,12 +248,13 @@ def total(b):
 print(total(6))
 """
  c   a) 12           b) 17           c) 11           d) 8
+ Correct - b
 ----------------------------------------------------------------------------------------------
 Q24. What will the output be?
 """
 def myFunc(a, b=2, c=3):
     return a + b + c
-print(myFunc(1, 5))
+print(myFunc(1, 15,10))
 """
     a) 6           b) 9            c) 11            d) Error 
 a
@@ -296,6 +309,7 @@ Q30. How can you make a function return multiple values?
     c) By using a global variable  
 
 a    d) By passing the values as arguments  
+Correct - b
 -----------------------------------------------------------------------------------------------
 Q31. What happens if you do not specify a return value in a Python function?**  
     a) The function will return 0 
@@ -305,6 +319,8 @@ Q31. What happens if you do not specify a return value in a Python function?**
     c) The function will raise an error 
 c
     d) The function will return `False`  
+
+    Correct - b
 -----------------------------------------------------------------------------------------------
 Q32. How can a function be assigned to a variable in Python?**  
     a) `var = myFunc()`
@@ -323,6 +339,8 @@ Q33. Which of the following is a valid way to return nothing from a function in 
     c) `pass`
 
 c    d) `return ""`  
+
+a
 ----------------------------------------------------------------------------------------------
 Q34. What will the following code output?
 """
@@ -335,6 +353,8 @@ def double(x):
 print(double(4))
 """
  a   a) 8            b) 10           c) 12           d) 14
+
+ Correct - b
 """
 
 
