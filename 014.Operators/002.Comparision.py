@@ -27,3 +27,10 @@ if x<=18:
     print("You can't drive.")
 else:
     print("You can drive.")
+
+
+z =40
+if z == 40:
+    print(z)
+else:
+    print("Anything")
