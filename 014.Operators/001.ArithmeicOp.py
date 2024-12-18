@@ -1,4 +1,4 @@
-# Operators in Python - THese are used to perform operations on variables and values.
+# Operators in Python - These are used to perform operations on variables and values.
 
 # Arithmetic Operators - These are used to perform mathematical operations. 
 # Addition - + +> 5 + 3 = 8 
@@ -29,11 +29,11 @@ x += 5    # x = x + 5
 print("x +=",x)
 
 y =30
-y -= 5    # x = x - 5
+y -= 5    # y = y - 5
 print("x -=",y)
 
 z = 10
-z *= 5    # x = x * 5
+z *= 5    # z = z * 5
 print("x *=",z)
 
 x =20
