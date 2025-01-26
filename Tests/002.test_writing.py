@@ -1,0 +1,6 @@
+y=int(input("Enter your percentage for your test"))
+z=int(input("Enter your percentage for your test"))
+x=int(input("Enter your percentage for your test"))
+a=int(input("Enter your percentage for your test"))
+b=int(input("Enter your percentage for your test"))
+print("Your average percentage is:",y+z+a+b/5)

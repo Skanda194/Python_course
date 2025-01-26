@@ -10,7 +10,7 @@ x = 5
     c) Float
 
     d) Boolean
-
+a.
 Q2. Which data type in Python is used to store a sequence of characters?
     a) Integer
 
@@ -19,7 +19,7 @@ Q2. Which data type in Python is used to store a sequence of characters?
     c) String
 
     d) Boolean
-
+d.
 Q3. Which data type is used to store a collection of items, where each item is indexed by a key?
     a) List
 
@@ -28,7 +28,7 @@ Q3. Which data type is used to store a collection of items, where each item is i
     c) Set
 
     d) Dictionary
-
+d.
 Q4. What will be the output of the following code snippet? '''
 
 x = 10
@@ -42,7 +42,7 @@ print(x + int(y))
     c) “1020”
 
     d) Error
-
+ a.   
 Q5. Which data type in Python is mutable?
     a) String
 
@@ -51,7 +51,7 @@ Q5. Which data type in Python is mutable?
     c) Set
 
     d) List
-
+d.
 Q6. Which data type is used to store a collection of items, where each item is unique and unordered?
     a) List
 
@@ -60,24 +60,25 @@ Q6. Which data type is used to store a collection of items, where each item is u
     c) Set
 
     d) Dictionary
+b.    
 Q7. Which data type is used to store a collection of items, where each item is indexed by a numerical index?
-    a) List
+    a) list
 
     b) Tuple
 
     c) Set
 
     d) Dictionary
-
+c.
 Q8. Which of the following statements about Python strings is true?
     a) Strings in Python are mutable.
 
     b) Strings can only contain numeric characters.
 
-    c) Strings can be concatenated using the “+” operator.
+    c)catenated usin trings can Sbe cong the “+” operator.
 
     d) Strings can be accessed by numerical indices.
-
+a.
 Q9. What will be the output of the following code snippet? '''
 x = 10
 y = "20"
@@ -90,6 +91,7 @@ print(str(x) + y)
     c) Error
 
     d) “10200”
+b.    
  Q10. What is the output of the following code snippet?
 '''
 x =[1,2,3]
@@ -104,7 +106,7 @@ print(y)
     c) [1, 2, 3, 4, 4]
 
     d) [1, 2, 3, 3]
-
+b.
 Q11. What will be the output of the following code snippet? '''
 x = {"a", "b", "c"}
 y = {"b", "c", "d"}
@@ -118,7 +120,7 @@ print(z)
     c) {“a”, “d”}
 
     d) {“a”, “b”, “c”}
-
+b.
 Q12. What is the output of the following code snippet?
 '''
 x = 10
@@ -133,7 +135,7 @@ print(x, y)
     c) 20 20
 
     d) 10 10
-
+b.
     Q13. What will be the output of the following code snippet?
     '''
 x = {"name": "John", "age": 30}
@@ -146,7 +148,7 @@ print(x["address"])
     c) None
 
     d) Error
-
+d.
     Q14. What is a variable in Python?
     a) A container to store data
 
@@ -164,7 +166,7 @@ print(x["address"])
     c) Variable names must always be written in uppercase letters.
 
     d) Variable names are distinguished by uppercase and lowercase letters.
-
+d.
 Q16. Which of the following is a valid variable name in Python?
     a) 3total
 
@@ -173,6 +175,7 @@ Q16. Which of the following is a valid variable name in Python?
     c) global
 
     d) class
+b,c,d    
 Q17. What does the “global” keyword do in Python?
     a) Declares a variable that is accessible from anywhere in the program.
 
@@ -181,7 +184,7 @@ Q17. What does the “global” keyword do in Python?
     c) Declares a variable that is accessible only within a specific module.
 
     d) Declares a variable that cannot be modified.
-
+a.
 Q18. What is the purpose of the “del” keyword in Python?
     a) To delete a variable from memory.
 
@@ -190,6 +193,7 @@ Q18. What is the purpose of the “del” keyword in Python?
     c) To initialize a variable.
 
     d) To declare a variable as global.
+a.    
 Q19. What is the output of the following code snippet? 
 '''
 x = [1, 2, 3]
@@ -204,7 +208,7 @@ print(y)
     c) [1, 2, 3, 4]
 
     d) [4, 2, 3, 4]
-
+b.
 Q20. What is the purpose of the “id()” function in Python?
     a) To identify the data type of a variable.
 
@@ -213,7 +217,7 @@ Q20. What is the purpose of the “id()” function in Python?
     c) To return the memory address of an object.
 
     d) To convert a variable to an integer.
-
+a.
 Q21. What is the difference between local and global variables in Python?
     a) Local variables are declared outside of any function, while global variables are declared within functions.
 
@@ -222,7 +226,7 @@ Q21. What is the difference between local and global variables in Python?
     c) Local variables are stored in the global namespace, while global variables are stored in local namespaces.
 
     d) Local variables are immutable, while global variables are mutable.
-
+b.
 Q22. What is the output of the following code? '''
 def test():
     global x
@@ -237,7 +241,7 @@ print(x)
     c) Error
 
     d) None
-
+b.
 Q23. What is the output of the following code snippet?
 
     x = {“name”: “John”, “age”: 30}
@@ -252,7 +256,7 @@ Q23. What is the output of the following code snippet?
     c) 30
 
     d) Error
-
+d.
 Q24. What will be the output of the following code snippet? '''
 
 x = [1, 2, 3]
@@ -266,6 +270,7 @@ print(y)
     c) 3  
 
     d) Error
+b.    
 Q25. What will be the output of the following code snippet?
 '''
 x = [1, 2, 3]
@@ -279,7 +284,7 @@ print(x)
     c) [1, 2, 4, 3]  
 
     d) [1, 4, 2, 4, 3]
-
+d.
 Q26. What will be the output of the following code snippet?
 '''
 x = "Hello"
@@ -293,7 +298,7 @@ print(y)
     c) “ell”  
 
     d) “Hello”
-
+c.
 Q27. Which operator is used to calculate the remainder of a division?
     a) %
 
@@ -302,7 +307,7 @@ Q27. Which operator is used to calculate the remainder of a division?
     c) /
 
     d) **
-
+a.
 Q28. What is the result of the expression 4 < 5 and 5 < 6?
     a) True
 
@@ -311,6 +316,7 @@ Q28. What is the result of the expression 4 < 5 and 5 < 6?
     c) Error
 
     d) None of the above
+a.    
 Q29. What will be the output of the following code?
 '''
 print(3 ** 3)
@@ -322,7 +328,7 @@ print(3 ** 3)
     c) 81
 
     d) 6
-
+b.
 Q30. What does the expression not(10 == 10) evaluate to?
     a) True
 
@@ -331,7 +337,7 @@ Q30. What does the expression not(10 == 10) evaluate to?
     c) Error
 
     d) None of the above
-
+b.
 Q31. Which operator is used to perform floor division?
     a) %
 
@@ -340,7 +346,7 @@ Q31. Which operator is used to perform floor division?
     c) /
 
     d) **
-
+b.
 Q32. What will be the output of the following code?
 '''
 print(9 % 4)
@@ -352,7 +358,7 @@ print(9 % 4)
     c) 3
 
     d) 0
-
+a.
 Q33. What will be the output of the following code?
 '''
 print(7 // 2)
@@ -364,6 +370,7 @@ print(7 // 2)
     c) 3
 
     d) 2
+a.    
 Q34. What does the expression not(3 < 2) evaluate to?
     a) True
 
@@ -372,7 +379,7 @@ Q34. What does the expression not(3 < 2) evaluate to?
     c) Error
 
     d) None of the above
-
+a.
 Q35. What will be the output of the following code?
 '''
 print(2 ** 0)
@@ -384,7 +391,7 @@ print(2 ** 0)
     c) 2
 
     d) 3
-
+a.
 Q36. Which operator is used to perform logical OR operation?
     a) |
 
@@ -393,7 +400,7 @@ Q36. Which operator is used to perform logical OR operation?
     c) or
 
     d) OR
-
+c.
 Q37. What is the result of the following expression in Python?
     10 > 5 < 2
 
@@ -404,7 +411,7 @@ Q37. What is the result of the following expression in Python?
     c) 7
 
     d) Error
-
+b.
 
 Q38. What is the result of the following expression in Python?
     3 * "Hello"
@@ -416,7 +423,7 @@ Q38. What is the result of the following expression in Python?
     c) “HelloHelloHello”
 
     d) Error
-
+c.
 Q39. What is the result of the following expression in Python?
 '''
 print(-5 // 2)
@@ -428,7 +435,7 @@ print(-5 // 2)
     c) 2
 
     d) 3
-
+a.
 Q40. What does the expression bool(0) evaluate to?
     a) True
 
@@ -437,4 +444,5 @@ Q40. What does the expression bool(0) evaluate to?
     c) None
     
     d) Error
+d.    
 '''
