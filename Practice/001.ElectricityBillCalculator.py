@@ -53,3 +53,46 @@ def id():
     num=int(input("Enter your ID number: "))
     consume(name,num)
 id()
+
+
+
+'''
+def calculate_bill(units):
+    if units <= 199:
+        amount = units * 1.20
+    elif units >= 200 and units < 400:
+        amount = units * 1.50
+    elif units >= 400 and units < 600:
+        amount = units * 1.80
+    else:
+        amount = units * 2.00
+    
+    surcharge = 0
+    if amount > 400:
+        surcharge = amount * 0.15
+    
+    total_amount = amount + surcharge
+    
+    if total_amount < 100:
+        total_amount = 100
+    
+    return amount, surcharge, total_amount
+
+# Input from the user
+customer_id = input("Enter Customer ID: ")
+customer_name = input("Enter Customer Name: ")
+units_consumed = int(input("Enter Units Consumed: "))
+
+# Calculate bill
+amount, surcharge, total_amount = calculate_bill(units_consumed)
+
+# Display the bill details
+print("\nElectricity Bill")
+print(f"Customer IDNO : {customer_id}")
+print(f"Customer Name : {customer_name}")
+print(f"Unit Consumed : {units_consumed}")
+print(f"Amount Charges @Rs. {amount/units_consumed:.2f} per unit : {amount:.2f}")
+print(f"Surcharge Amount : {surcharge:.2f}")
+print(f"Net Amount Paid By the Customer : {total_amount:.2f}")
+
+'''
