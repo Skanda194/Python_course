@@ -13,3 +13,4 @@ def check_alphabet(character):
 char = input("Enter a single alphabet: ")
 result = check_alphabet(char)
 print(result)
+

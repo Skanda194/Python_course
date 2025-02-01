@@ -26,3 +26,30 @@ Amount Charges @Rs. 2.00 per unit : 1600.00
 Surchage Amount : 240.00
 Net Amount Paid By the Customer : 1840.00
 '''
+
+def consume(name,num):
+    con=int(input("Enter how much money you've consumed: "))
+    print("Customer name",name)
+    print("Customer ID",num)
+    if con<200:
+        print("Amount Charges @$. 1.20 per unit:",float(con*1.20))
+        print("Net Amount paid by customer:",con+con*1.20)
+    elif con>=200 and con<=400:
+        print("Amount Charges @$. 1.50 per unit:",float(con*1.5))
+        print("Net Amount paid by customer:",con+con*1.5)
+    elif con>400 and con<600:
+        print("Amount Charges @$. 1.80 per unit:",float(con*1.8))
+        print("Surcharge amount",con*0.15)
+        print("Net Amount paid by customer:",con+con*1.8+con*0.15)
+    else:
+        print("Amount Charges @$. 2.00 per unit:",float(con*2))
+        print("Surcharge amount",con*0.15)
+        print("Net Amount paid by customer:",con+con*0.15+con*2)
+
+
+
+def id():
+    name=input("Enter your name: ")
+    num=int(input("Enter your ID number: "))
+    consume(name,num)
+id()
