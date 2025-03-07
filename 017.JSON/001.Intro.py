@@ -14,6 +14,10 @@
 import json
 obj = '{ "name":"Arvinder","age":30,"City":"England"}'
 
+"""
+key:value --- Pair
+"""
+
 # json.loads() --> convert the json object to python dictionary
 result = json.loads(obj)
 
