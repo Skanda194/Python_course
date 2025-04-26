@@ -1,7 +1,8 @@
 import json
-obj={"Skanda":12,"Boy":2012},["hi",27,"Arvinder pal"],{"this is coding"},12,"hi"
-result=json.dumps(obj)
-print(result)
+x='{"name":"john","age":12,"state":"Califiornia","friends":["Rohan","Jimmy","Skanda"}'
+y=json.loads(x)
+print(y)
+
 
 
 
