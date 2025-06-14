@@ -72,7 +72,7 @@
 #    print(i)
 #    i=i+1
 #10
-y=input("enter a word: ")
-for i in y:
-    i=y[::-1]
-    print(i)
+# y=input("enter a word: ")
+# for i in y:
+#     i=y[::-1]
+#     print(i)
