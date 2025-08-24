@@ -1,59 +1,79 @@
-#Sets - Unordered or unidexed , duplicates are not not allowed , unmutable
 
-# my_list = [29,30,45,879]
-# print(my_list[3])
-my_sets ={1,45,67,37,20}
-print(my_sets)
-# my_sets[0] 
-#Duplicates are not allowed
-my_sets2= {20,20,30,34,50,50,49,60}
-print(my_sets2)
+# =============================
+# Python Sets: Theory & Examples
+# =============================
+#
+# A set in Python is an unordered, mutable collection of unique elements. Sets do not allow duplicates and are useful for membership tests, removing duplicates, and set operations (union, intersection, etc).
+#
+# Why use sets?
+# - To store unique items
+# - To perform mathematical set operations
+# - Fast membership testing
+#
+# Set Syntax:
+# my_set = {item1, item2, ...}
 
-mySets3= {"Hello", 100, 245.67, True, 'A'}
+# --- Set Creation ---
+my_set = {1, 2, 3, 4, 5}
+print("Set:", my_set)
 
-#True ==1 , False ==0
-my_sets4={True , 1 , 0 , False}
-print(my_sets4)
+# Duplicates are removed automatically
+dupe_set = {1, 2, 2, 3, 4, 4, 5}
+print("No duplicates:", dupe_set)
 
-# We can add/remove elements from sets but we can not chage the exxisting elements 
-#mySets3= {"Hello", 100, 245.67, True, 'A'}
-mySets3.add(300)
-mySets3.add("Hello World")
+# Sets can contain mixed data types
+mixed_set = {"Hello", 100, 245.67, True, 'A'}
+print("Mixed set:", mixed_set)
 
-print(mySets3)
+# True == 1, False == 0 in sets
+bool_set = {True, 1, 0, False}
+print("Boolean set:", bool_set)
 
-#Removing a particular item from the sets
-# mySets3.remove("Hello3")
-# print(mySets3)
+# --- Adding and Removing Elements ---
+my_set.add(6)
+my_set.add(3)  # No effect, already present
+print("After add:", my_set)
+my_set.remove(2)  # Raises KeyError if not present
+print("After remove:", my_set)
+my_set.discard(10)  # No error if not present
+print("After discard:", my_set)
 
-mySets3.discard("Hello3")
-mySets3.discard("Hello")
-print(mySets3)
+# --- Pop and Clear ---
+popped = my_set.pop()
+print("Popped element:", popped)
+print("After pop:", my_set)
+my_set.clear()
+print("After clear:", my_set)
 
+# --- Set Operations ---
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+print("Union:", a | b)
+print("Intersection:", a & b)
 
-#Pop to remove an item from sets
-# mySets3.pop()
+# --- Membership Test ---
+print("Is 3 in a?", 3 in a)
+print("Is 7 not in a?", 7 not in a)
 
-#Clear a set - make it empty
-# mySets3.clear()
-# print(mySets3)
+# --- Iterating Over a Set ---
+for item in b:
+	print("Set item:", item)
 
-#JOin sets
-#mySets3= {"Hello", 100, 245.67, True, 'A'}
-#my_sets4={True , 1 , 0 , False}
+# --- Set Comprehension ---
+squares = {x**2 for x in range(6)}
+print("Set of squares:", squares)
 
-new_set = mySets3.union(my_sets4)
-print(new_set)
+# --- Convert List to Set (remove duplicates) ---
+my_list = [10, 20, 20, 30, 40, 10]
+unique = set(my_list)
+print("Unique from list:", unique)
 
-#Take the common items only
-new_set = mySets3.intersection(my_sets4)
-print(new_set)
+# --- Set Length ---
+print("Length of set a:", len(a))
 
-my_list = [10,20,30,40]
-my_sets5 = mySets3.update(my_list)
-print(my_sets5)
-# del mySets3
-# print(mySets3)
+# --- Set Copy ---
+copy_a = a.copy()
+print("Copy of a:", copy_a)
 
 
 
