@@ -1,36 +1,71 @@
+import datetime
+import json
+from time import strftime
 def account():
     print("Welcome to Expense tracker! Please create an account to continue")
-    account=[]
-    my_budget=[]
-    name=input("Enter your name: ")
-    account.append(name)
-    income=int(input("Enter your income: "))
-    account.append(income)
+    mydict={}
+    name=input("enter name: ")
+    mydict['name']=name
     currency=input("Enter currency: ")
-    account.append(currency)
-    budget=int(input("Enter budget"))
-    account.append(budget)
-    my_budget.append(budget)
-    return account,my_budget
-def entry():
-    my_account=account()
-    print(my_account)
-    monthly_report=int(input("How many things have you bought this month?"))
-    my_account_entry=[]
-    for i in range(0,monthly_report+1):
-        account_entry=float(input("Enter any groceries or anything you've spent on: "))
-        date=input("Enter date ")
-        category={1:["business"],2:["education"],3:["grocery"],4:["extra"],}
-        print(category)
-        my_category = int(input("Enter number which corresponds to which category is yours: "))
-        total = category[my_category][0]
-        my_account_entry.append(account_entry)
-        my_account_entry.append(date)
-        my_account_entry.append(total)
-        print("Summary:",my_account_entry)
-        length=len(my_account_entry)
-    for i in range(1,length+1):
-        print("Total cost:",my_account_entry[0]+my_account_entry[1])
+    mydict['currency']=currency
+    balance=int(input("Enter balance: "))
+    mydict['bank balance']=balance
+    mydict2={1:"business",2:"education",3:"personal"}
+    print(mydict2)
+    preference=int(input("Which preference is your account tuned to? : "))
+    mydict.update({"preferences":mydict2[preference]})
+    print("Saved account", mydict)
+    return mydict
+def purchase():
+    myaccount=account()
+    print("Say 'purchase' for a new purchase")
+    purchase=input(": ")
+    if purchase == "purchase":
+        summary=[]
+        amount=int(input("Enter amount of purchase: "))
+        myaccount.update({'bank balance': myaccount["bank balance"]-amount})
+        date=datetime.datetime.now()
+        date2=(date.strftime("%x"))
+        summary2="On,",date2,"$",amount,"was subtracted from",myaccount["bank balance"]+amount,"in",myaccount["preferences"]
+        dict={"date":date2,
+              "ammount":amount,
+              "original amount":myaccount["bank balance"]+amount,
+              "preferences":myaccount["preferences"]}
+        summary.append(summary2)
+        print(summary)
+        print(myaccount)
+        json_string=json.dumps(dict)
+        with open ("data.json","w") as json_file:
+            json.dump(json_string, json_file, indent=4)
+        print("data is successfully saved to json")
+purchase()
+
+
+
+
+
+
+
+
+#def entry():
+  #  my_account=account()
+  #  print(my_account)
+ #   monthly_report=int(input("How many things have you bought this month?"))
+ #   my_account_entry=[]
+    #for i in range(0,monthly_report+1):
+     #   account_entry=float(input("Enter any groceries or anything you've spent on: "))
+      #  date=input("Enter date ")
+       # category={1:["business"],2:["education"],3:["grocery"],4:["extra"],}
+        #print(category)
+        #my_category = int(input("Enter number which corresponds to which category is yours: "))
+    #     total = category[my_category][0]
+    #     my_account_entry.append(account_entry)
+    #     my_account_entry.append(date)
+    #     my_account_entry.append(total)
+    #     print("Summary:",my_account_entry)
+    #     length=len(my_account_entry)
+    # for i in range(1,length+1):
+    #     print("Total cost:",my_account_entry[0]+my_account_entry[1])
 
 
 
