@@ -1,10 +1,17 @@
-import datetime
+import datetime, json
 food={1:["pizza margherita","35.99"],2:["soda","2.99"],3:["pepperoni pizza","37.99"],4:["veggie pizza","40.99"],5:["meat lover's pizza","42.99"]}
+data = {}
 def menu():
     print(food)
 def order():
     amount=int(input("How many people are there? "))
     common=int(input("Are you guys having a common item or are you all ordering different items? Order 1 for common and 2 for different option "))
+    data["Num of People"] = amount
+    try:
+        with open('data.json','a') as file:
+            json.dump(data,file, indent=4)
+    except IOError as e:
+        print("Error writing to file: ",e)
     orders={}
     if common==1:
         menu()
